@@ -154,12 +154,12 @@ class Enemy:
 
 TOWERS = {
     "bowman": {
-        "name": "Bowman", "cost": 40, "rng": CELL * 3 + CELL // 2, "dmg": 18, "rate": 30,
+        "name": "Bowman", "cost": 40, "rng": CELL * 2 + CELL // 2, "dmg": 18, "rate": 30,
         "col": (80, 180, 80), "upg_cost": 30,
         "desc": "Fast, Single Target",
     },
     "crossbow": {
-        "name": "Crossbow", "cost": 90, "rng": CELL * 2 + CELL // 2, "dmg": 50, "rate": 55,
+        "name": "Crossbow", "cost": 90, "rng": CELL * 1 + CELL // 2, "dmg": 50, "rate": 55,
         "col": (180, 100, 60), "upg_cost": 50, "splash": 50,
         "desc": "Slower, Splash Damage",
     },
